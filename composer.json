@@ -1,0 +1,32 @@
+{
+  "name": "arillo/silverstripe-multidb",
+  "description": "Elements",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/arillo/silverstripe-multidb",
+  "keywords": ["silverstripe", "multidb"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Fischer",
+      "email": "sf@arillo.net"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^4",
+    "catfan/medoo": "^1.5"
+  },
+  "extra": {
+    "installer-name": "multidb",
+    "branch-alias": {
+      "dev-master": "dev-test/multi-db"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Arillo\\MultiDB\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/arillo/silverstripe-multidb/issues"
+  }
+}
