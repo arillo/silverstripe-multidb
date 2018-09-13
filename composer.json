@@ -1,6 +1,7 @@
 {
     "name": "arillo/silverstripe-multidb",
-    "description": "Elements",
+    "description":
+        "Simple DataObject proxy helping to persist records in multiple databases",
     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/arillo/silverstripe-multidb",
     "keywords": ["silverstripe", "multidb"],
